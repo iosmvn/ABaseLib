@@ -9,10 +9,10 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>ABaseLib.xcscheme_^#shared#^_</key>
+		<key>ABaseLib.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>Expecta+Snapshots.xcscheme</key>
 		<dict>
