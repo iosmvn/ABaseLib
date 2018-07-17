@@ -1,0 +1,16 @@
+platform :ios, '8.0'
+
+use_frameworks!
+
+target 'ABaseLib_Example' do
+  pod 'ABaseLib', :path => '../'
+
+  target 'ABaseLib_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+    pod 'FBSnapshotTestCase'
+    pod 'Expecta+Snapshots'
+  end
+end

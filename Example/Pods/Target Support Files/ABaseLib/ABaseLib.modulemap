@@ -1,0 +1,6 @@
+framework module ABaseLib {
+  umbrella header "ABaseLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
