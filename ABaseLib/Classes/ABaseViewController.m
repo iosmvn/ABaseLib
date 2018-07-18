@@ -31,9 +31,10 @@
     lab.text = str;
     lab.textColor = [UIColor blackColor];
     lab.font = [UIFont systemFontOfSize:20];
+    lab.numberOfLines = 0;
     [self.view addSubview:lab];
     [lab mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.center.equalTo(self.view);
+        make.edges.equalTo(self.view);
     }];
 }
 
